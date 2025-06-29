@@ -30,12 +30,12 @@ function Home() {
             </div>
             <div className="project-container">
                 <h1><i>Project Preview:</i></h1>
-                <div className="all-projects flex">
+                <div className="all-projects">
                     <div className="first-project">
                         <h2>Project1</h2>
                         <p>Discription:</p>
                         <p>A personal portfolio website template for developers and designers. It has sections for bio, skills, projects, and a contact form.</p>
-                        <div className='btn-container2 flex2'>
+                        <div className='btn-container flex2'>
                             <button className='btn2'>VIEW</button>
                         </div>
                     </div>

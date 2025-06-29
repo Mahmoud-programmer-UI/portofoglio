@@ -52,6 +52,11 @@
     margin:0 28px;
     margin-top: 25px;
 }
+.all-projects{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
 .all-projects .first-project,
 .all-projects .second-project{
     height: 250px;
@@ -95,9 +100,6 @@ h2{
 .btn-container{
     margin: 14px 0;
 }
-.btn-container2{
-    margin: 34px 0 0px;
-}
 @media (max-width:1280px) {
 
 }
@@ -119,7 +121,6 @@ h2{
     }
     .all-projects .first-project,
     .all-projects .second-project{
-        height: 100%;
         width: 100%;
     }
     .all-projects .second-project{
