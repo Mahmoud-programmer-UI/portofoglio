@@ -1,0 +1,82 @@
+.projects-page-section {
+    margin: 0 28px;
+}
+.projects-page-section .projects-intro h2{
+    padding: 10px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.projects-page-section .projects-intro p{
+    width: 65%;
+    text-align: center;
+    margin-bottom: 22px;
+} 
+.best-projects{
+    margin-top: 25px;
+    padding: 10px;
+}
+.best-projects h1{
+    text-align: center;
+}
+.best-projects .portofoglio,
+.best-projects .e-shop-lite{
+    background-color: var(--card-color);
+    border: 5px solid var(--border-color);
+    margin-right: 10px;
+    width: 45%;
+    padding:0px 15px;
+    min-height: 280px;
+}
+.best-projects .portofoglio h2,
+.best-projects .e-shop-lite h2{
+    padding: 10px;
+}
+.best-projects .portofoglio p:nth-child(3),
+.best-projects .e-shop-lite p:nth-child(3){
+    text-align: center;
+    margin:10px  25px 20px;
+}
+.best-projects .portofoglio p,
+.best-projects .e-shop-lite p{
+    width: 90%;
+    margin-left: 25px;
+}
+.best-projects button{
+    margin: 0 25px 20px;
+}
+.projects-page-section .contact-container{
+    margin-top: 25px;
+}
+.projects-page-section .contact-container p{
+    text-align: center;
+    width: 80%;
+    margin: 7% 10%;
+}
+.projects-page-section .contact-container a{
+    /* to reset the margin of btn class */
+    margin: 0;
+    margin-bottom: 22px;
+}
+.btn-container3{
+    margin: 40px 0 0px;
+}
+@media (max-width:767px) {
+    .best-projects{
+        padding: 0;
+    }
+    .best-projects-container{
+        flex-direction: column;
+    }   
+    .best-projects .portofoglio,
+    .best-projects .e-shop-lite{
+        width: 100%;
+    }
+    .best-projects .portofoglio button,
+    .best-projects .e-shop-lite button{
+        font-size: 14px;
+
+    }
+    .best-projects .e-shop-lite{
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,69 @@
+.about-page-section{
+    margin: 0 28px;
+}
+
+.about-page-section .my-jop h2,
+.about-page-section .my-story h2,
+.about-page-section .my-scope h2,
+.about-page-section .my-skills-container h2{
+    text-align: center;
+    padding: 10px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.about-page-section .my-jop p,
+.about-page-section .my-scope p,
+.about-page-section .my-story p{
+    width: 65%;
+    text-align: center;
+    margin-bottom: 22px;
+} 
+.about-page-section .my-story,
+.about-page-section .my-scope,
+.about-page-section .contact-container,
+.about-page-section .my-skills-container{
+    margin-top: 25px;
+}
+.about-page-section .my-skills{
+    flex-wrap: wrap;
+    width: 70%;
+}
+.about-page-section .my-skills ul{
+    width: 50%;
+}
+.about-page-section .my-skills ul li{
+    font-size: 23px;
+    list-style-position: inside;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.about-page-section .my-skills-container .specific-skill{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 23px;
+    list-style-position: inside;
+    margin-bottom:22px;
+}
+.about-page-section .contact-container p{
+    text-align: center;
+    margin: 30px 0px;
+}
+/* about phone done */
+@media (max-width:767px) {
+    .my-skills{
+        flex-direction: column;
+    }
+    .about-page-section .my-skills ul{
+        width: 100%;
+    }
+    .about-page-section .my-skills-container .specific-skill,
+    .about-page-section .my-skills ul li{
+        font-size: 15px;
+    }
+    .about-page-section .my-skills-container .specific-skill{
+        transform: translate(0);
+        left: 0%;
+    }
+}

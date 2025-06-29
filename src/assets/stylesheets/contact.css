@@ -1,0 +1,59 @@
+.reach-me {
+    margin: 0 28px;
+}
+.reach-me-intro,
+.other-method {
+    flex-direction: column;
+}
+.reach-me-intro h2{
+    margin-top: 22px;
+}
+.reach-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reach-me form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+::placeholder {
+    color: #888888;
+}
+
+.reach-me form input:not(:nth-child(7)) {
+    padding-left: 15px;
+    height: 40px;
+    border:1px solid #888888;
+}
+
+.reach-me form input:nth-child(7) {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    margin: 25px 0 20px;
+}
+.reach-me form label {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.other-method h3{
+    font-weight: 600;
+    font-size: x-large;
+    margin-bottom: 22px;
+}
+.other-method p:nth-child(1) {
+    font-size: xx-large;
+    margin-top: 20px;
+}
+.other-method p:nth-child(2){
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
