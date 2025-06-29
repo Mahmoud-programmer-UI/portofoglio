@@ -86,14 +86,8 @@ h1{
     outline: none;
     background-color: #FFAACC;
 }
-/* pesudo elements part */
-.btn:hover{
-    background-color: rgb(178, 122, 122);
-    transition: all 1.3s ease-in-out;
-}
-.btn2:hover{
-    background-color: rgb(178, 122, 122);
-    transition: all 1.3s ease-in-out;
+.btn-container{
+    margin: 14px 0;
 }
 .input-style,
 .input-style2{
@@ -113,7 +107,15 @@ h1{
     flex-direction: column;
     min-height: 110px;
 }
-
+/* pesudo elements part */
+.btn:hover{
+    background-color: rgb(178, 122, 122);
+    transition: all 1.3s ease-in-out;
+}
+.btn2:hover{
+    background-color: rgb(178, 122, 122);
+    transition: all 1.3s ease-in-out;
+}
 /* index phone done */
 @media (max-width:767px) {
     .btn-other-pages,

@@ -97,12 +97,7 @@ h2{
     margin-bottom: 20px;
 }
 /* usable components */
-.btn-container{
-    margin: 14px 0;
-}
-@media (max-width:1280px) {
 
-}
 /* home phone done */
 @media (max-width:767px) {
     .full-intro{

@@ -11,12 +11,12 @@ function Projects(){
             </div>
             <div className="best-projects">
                 <h1><i>Best Projects</i></h1>
-                <div className="best-projects-container flex">
+                <div className="best-projects-container">
                     <div className="portofoglio">
                         <h2>Project1</h2>
                         <p>Discription:</p>
                         <p>A personal portfolio website template for developers and designers. It has sections for bio, skills, projects, and a contact form.</p>
-                        <div className='btn-container3'>
+                        <div className='btn-container'>
                             <div className="button-container flex">
                                 <button className='btn2'>SOURCE CODE</button>
                                 <button className='btn2'>LIVE DEMO</button>

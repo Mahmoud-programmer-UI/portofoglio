@@ -15,6 +15,11 @@
     margin-top: 25px;
     padding: 10px;
 }
+.best-projects-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
 .best-projects h1{
     text-align: center;
 }
@@ -57,9 +62,7 @@
     margin: 0;
     margin-bottom: 22px;
 }
-.btn-container3{
-    margin: 40px 0 0px;
-}
+
 @media (max-width:767px) {
     .best-projects{
         padding: 0;
