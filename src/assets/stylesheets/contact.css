@@ -57,3 +57,22 @@
     font-weight: bold;
     font-size: 18px;
 }
+@media (max-width:767px) {
+    .reach-me-intro p{
+        width :80%;
+    }
+    .reach-me form{
+        width: 80%;
+    }
+    .input-style{
+        width: 100%;
+    }
+    .other-method p:nth-child(2){
+        font-size: 15px;
+    }
+    .other-method h3{
+        width: 80%;
+        margin-left: -20%;
+        font-size: 15px;
+    }
+}
