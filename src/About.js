@@ -1,6 +1,4 @@
-import Footer from './footer'
-import {   Link} from "react-router-dom";
-import './assets//stylesheets//about.css'
+
 function About(){
     return(
         <><div className='about-page-section'>
