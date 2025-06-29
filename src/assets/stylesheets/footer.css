@@ -39,3 +39,21 @@ footer .my-name,
 footer h1{
     font-weight: 600;
 }
+@media (max-width:767px) {
+    footer .follow-container{
+        height: 85px;
+    }
+    footer h1{
+        width: 100%;
+        font-size: 22px;
+    }
+    .input-style2 {
+        width: 70%;
+    }
+    footer .copyright {
+        width: 100%;
+    }
+    footer .copyright h2{
+        font-size: 25px;
+    }
+}

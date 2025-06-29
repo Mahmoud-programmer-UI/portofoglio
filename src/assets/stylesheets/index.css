@@ -95,7 +95,8 @@ h1{
     background-color: rgb(178, 122, 122);
     transition: all 1.3s ease-in-out;
 }
-.input-style{
+.input-style,
+.input-style2{
     background-color: #F9FAFB;
     border: 0;
     outline: 0;

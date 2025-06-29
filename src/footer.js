@@ -7,7 +7,7 @@ function Footer(){
         <footer>
             <div className='review-massage'>
                 <h1>Leave me a message</h1>
-                <textarea className='input-style'></textarea>
+                <textarea className='input-style2'></textarea>
             </div>
             <div className='follow-container'>
                 <h1>Follow Me</h1>
