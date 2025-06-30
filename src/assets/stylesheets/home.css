@@ -1,123 +1,119 @@
-.intro-container{
-    margin:0 28px;
-    position: relative;
+.intro-container {
+  margin: 0 28px;
+  position: relative;
 }
 .full-intro,
 .full-review,
 .all-projects,
-.contact-section{
-    margin-top: 25px;
-    padding: 10px;
+.contact-section {
+  margin-top: 25px;
+  padding: 10px;
 }
 .full-intro .who-i-am,
 .full-intro .what-i-offer,
 .all-projects .first-project,
-.all-projects .second-project{
-    background-color:   var(--card-color);
-    border: 5px solid var(--border-color);
-    margin-right: 10px;
-    width: 45%;
+.all-projects .second-project {
+  background-color: var(--card-color);
+  border: 5px solid var(--border-color);
+  margin-right: 10px;
+  width: 45%;
 }
 .full-intro .who-i-am,
-.full-intro .what-i-offer{
-    height: 125px;
+.full-intro .what-i-offer {
+  height: 125px;
+  flex-direction: column;
 }
-.full-intro .who-i-am,
-.full-intro .what-i-offer{
-    flex-direction: column;
-}
-.who-i-am h2{
-    margin-top: -15px;
-    margin-bottom: 8px;
+.who-i-am h2 {
+  margin-top: -15px;
+  margin-bottom: 8px;
 }
 .full-intro .who-i-am p,
-.full-intro .what-i-offer p{
-    width: 60%;
-    text-align: center;
+.full-intro .what-i-offer p {
+  width: 60%;
+  text-align: center;
 }
-.about-review{
-    margin:0 28px;
-    margin-top: 25px;
+.about-review {
+  margin: 0 28px;
+  margin-top: 25px;
 }
-.full-review .my-jop h2{
-    margin-top: 20px;
-    margin-bottom: 15px;
+.full-review .my-jop h2 {
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
-.full-review .my-jop p{
-    width: 65%;
-    text-align: center;
-    margin-bottom: 20px;
+.full-review .my-jop p {
+  width: 65%;
+  text-align: center;
+  margin-bottom: 20px;
 }
-.project-container{
-    margin:0 28px;
-    margin-top: 25px;
+.project-container {
+  margin: 0 28px;
+  margin-top: 25px;
 }
-.all-projects{
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
+.all-projects {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
 }
 .all-projects .first-project,
-.all-projects .second-project{
-    position: relative;
+.all-projects .second-project {
+  position: relative;
 }
 .all-projects .first-project h2,
-.all-projects .second-project h2{
-    padding:0 20px;
-    margin: 8px 0 6px;
+.all-projects .second-project h2 {
+  padding: 0 20px;
+  margin: 8px 0 6px;
 }
 .all-projects .first-project p,
-.all-projects .second-project p{
-    padding:0 40px;
+.all-projects .second-project p {
+  padding: 0 40px;
 }
 .all-projects .first-project p:nth-child(3),
-.all-projects .second-project p:nth-child(3){
-    margin-top: 8px;
-    text-align: center;
+.all-projects .second-project p:nth-child(3) {
+  margin-top: 8px;
+  text-align: center;
 }
 .all-projects .first-project button,
-.all-projects .second-project button{
-    margin: 0px 0 0 0;
-
+.all-projects .second-project button {
+  margin: 0px 0 0 0;
 }
-.contact-me{
-    margin:0 28px;
-    margin-top: 25px;
+.contact-me {
+  margin: 0 28px;
+  margin-top: 25px;
 }
-h2{
-    font-size: 30px;
+h2 {
+  font-size: 30px;
 }
-.contact-section .collaboration h2{
-    margin-top: 10px;
-    margin-bottom: 15px;
+.contact-section .collaboration h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
-.contact-section .collaboration p{
-    text-align: center;
-    margin-bottom: 20px;
+.contact-section .collaboration p {
+  text-align: center;
+  margin-bottom: 20px;
 }
-@media (max-width:767px) {
-    .full-intro{
-        flex-direction: column;
-        margin: 0;
-    }
-    .full-intro .who-i-am,
-    .full-intro .what-i-offer{
-        margin-right: 0;
-        margin-bottom: 15px;
-        width: calc(100% - 20px);
-        height: 300px;
-    }
-    .all-projects {
-        flex-direction: column;
-    }
-    .all-projects .first-project,
-    .all-projects .second-project{
-        width: 100%;
-    }
-    .all-projects .second-project{
-        margin-top: 22px;
-    }
-    .collaboration  p{
-        width: 70%;
-    }
+@media (max-width: 767px) {
+  .full-intro {
+    flex-direction: column;
+    margin: 0;
+  }
+  .full-intro .who-i-am,
+  .full-intro .what-i-offer {
+    margin-right: 0;
+    width: calc(100% - 20px);
+    height: 300px;
+  }
+  .all-projects {
+    flex-direction: column;
+  }
+  .all-projects .first-project,
+  .all-projects .second-project {
+    width: 100%;
+  }
+  .full-intro .what-i-offer,
+  .all-projects .second-project {
+    margin-top: 22px;
+  }
+  .collaboration p {
+    width: 70%;
+  }
 }
