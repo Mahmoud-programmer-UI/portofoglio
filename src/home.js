@@ -35,7 +35,7 @@ function Home() {
                         <h2>Project1</h2>
                         <p>Discription:</p>
                         <p>A personal portfolio website template for developers and designers. It has sections for bio, skills, projects, and a contact form.</p>
-                        <div className='btn-container flex2'>
+                        <div className='btn-container2 flex2'>
                             <button className='btn2'>VIEW</button>
                         </div>
                     </div>

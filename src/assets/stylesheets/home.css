@@ -59,7 +59,6 @@
 }
 .all-projects .first-project,
 .all-projects .second-project{
-    height: 250px;
     position: relative;
 }
 .all-projects .first-project h2,
@@ -118,7 +117,6 @@ h2{
     .all-projects .second-project{
         margin-top: 22px;
     }
-
     .collaboration  p{
         width: 70%;
     }
