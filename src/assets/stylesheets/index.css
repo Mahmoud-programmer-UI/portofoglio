@@ -87,10 +87,12 @@ h1{
     background-color: #FFAACC;
 }
 .btn-container {
-  margin-top: 14px;
+  position: relative;
+  margin: 15px 0;
 }
 .btn-container2 {
-  margin-top: 34.5px;
+  position: relative;
+  margin: 34px 0 15px;
 }
 .input-style,
 .input-style2{
@@ -126,5 +128,4 @@ h1{
         font-size: 20px;
         width: 235px;
     }
-
 }
