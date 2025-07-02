@@ -1,90 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
-  font-family: 'Nunito',sans-serif;
+  font-family: "Nunito", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(27, 226, 233,25);
+  background-color: rgb(27, 226, 233, 25);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-:root{
-    --card-color:white;
-    --border-color:#DF7396;
+:root {
+  --card-color: white;
+  --border-color: #df7396;
 }
-.flex2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flex2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-h2{
-    font-weight: 600;
+h2 {
+  font-weight: 600;
 }
-h1{
-    font-size: 40px;
-    color:  #509D9B;
-    margin-bottom:25px;
-    font-weight: 600;
+h1 {
+  font-size: 40px;
+  color: #509d9b;
+  margin-bottom: 25px;
+  font-weight: 600;
 }
-.btn{
-    cursor: pointer;
-    width: 300px;
-    font-size: 24px;
-    color: var(--card-color);
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-    background-color: #FFAACC;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 48px;
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.btn-other-pages{
-        cursor: pointer;
-    width: 300px;
-    font-size: 24px;
-    color: var(--card-color);
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-    background-color: #FFAACC;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 22px;
-    text-decoration: none;
+.btn {
+  cursor: pointer;
+  width: 300px;
+  font-size: 24px;
+  color: var(--card-color);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: #ffaacc;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 48px;
 }
-.btn2{
-    cursor: pointer;
-    width: 170px;
-    font-size: 20px;
-    color: var(--card-color);
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    background-color: #FFAACC;
+.btn-other-pages {
+  cursor: pointer;
+  width: 300px;
+  font-size: 24px;
+  color: var(--card-color);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: #ffaacc;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 22px;
+  text-decoration: none;
+}
+.btn2 {
+  cursor: pointer;
+  width: 2000px;
+  font-size: 20px;
+  color: var(--card-color);
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #ffaacc;
 }
 .btn-container {
   position: relative;
@@ -95,37 +103,36 @@ h1{
   margin: 34px 0 15px;
 }
 .input-style,
-.input-style2{
-    background-color: #F9FAFB;
-    border: 0;
-    outline: 0;
-    margin-top: 7px;
-    border-radius: 5px;
-    width: 400px;
-    height: 30px;
+.input-style2 {
+  background-color: #f9fafb;
+  border: 0;
+  outline: 0;
+  margin-top: 7px;
+  border-radius: 5px;
+  width: 400px;
+  height: 30px;
 }
-.card{
-    background-color: var(--card-color);
-    border: 5px solid var(--border-color);
-    margin-right: 10px;
-    width: 100%;
-    flex-direction: column;
-    min-height: 110px;
+.card {
+  background-color: var(--card-color);
+  border: 5px solid var(--border-color);
+  margin-right: 10px;
+  width: 100%;
+  flex-direction: column;
+  min-height: 110px;
 }
 /* pesudo elements part */
-.btn:hover{
-    background-color: rgb(178, 122, 122);
-    transition: all 1.3s ease-in-out;
+.btn:hover,
+.btn2:hover {
+  background-color: rgb(178, 122, 122);
+  transition: all 1.3s ease-in-out;
 }
-.btn2:hover{
-    background-color: rgb(178, 122, 122);
-    transition: all 1.3s ease-in-out;
-}
+
 /* index phone done */
-@media (max-width:767px) {
-    .btn-other-pages,
-    .btn{
-        font-size: 20px;
-        width: 235px;
-    }
+@media (max-width: 767px) {
+  .btn-other-pages,
+  .btn {
+    font-size: 20px;
+    width: 235px;
+    margin-top: 20px;
+  }
 }
