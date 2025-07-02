@@ -1,4 +1,4 @@
-import logo from "./assets//images//final_logo.png";
+import logo from "./assets//images & videos//final_logo.png";
 import Home from "./home";
 import About from "./About";
 import Projects from "./Projects";

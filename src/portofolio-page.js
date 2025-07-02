@@ -1,5 +1,5 @@
 import Footer from "./footer";
-import loginportofolio from "";
+import loginportofolio from "./assets//images & videos//Screenshot 2025-07-01 003726.png";
 export default function Portofolio() {
   return (
     <>
