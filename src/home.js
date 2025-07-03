@@ -91,7 +91,7 @@ function Home() {
         </Link>
       </div>
       <Footer />
-      {/* footer */}
+
     </>
   );
 }

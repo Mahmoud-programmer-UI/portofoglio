@@ -7,15 +7,15 @@ import lastestWorkImg from "./assets//images//Screenshot 2025-07-01 004204.png";
 export default function Portofolio() {
   return (
     <>
-      <div className="Portofolio-section">
-        <div className="Portofolio-information card">
-          <div className="Portofolio-intro">
+      <div className="portofolio-section">
+        <div className="portofolio-information card">
+          <div className="portofolio-intro">
             <h2> Smart Portfolio</h2>
             <p>Description:</p>
             <p>
               A personal portfolio website template for developers and
-              designers. It has sections for bio, skills, projects, and a
-              contact form.
+              designers. It has sections for bio, skills, projects, and lastest
+              work.
             </p>
           </div>
           <div className="language-used flex2">
@@ -29,13 +29,13 @@ export default function Portofolio() {
             </ul>
           </div>
         </div>
-        <div className="Portofolio-pictures">
+        <div className="portofolio-pictures">
           <h1>Project Pictures</h1>
-          <div className="portofolio-pictures-container card">
+          <div className="portofolio-pictures-container flex2 card">
             <div>
               <img src={loginportofolio} alt="not found"></img>
             </div>
-            <div className="centralized-pictures flex">
+            <div className="centralized-pictures flex2">
               <img src={section1Img} alt="not found"></img>
               <img src={section2Img} alt="not found"></img>
             </div>
@@ -43,16 +43,6 @@ export default function Portofolio() {
               <img src={lastestWorkImg} alt="not found"></img>
             </div>
           </div>
-        </div>
-        <div className="video-container">
-          <h1>Video Of Project</h1>
-          <video
-            controls
-            autoPlay
-            src={portfolioVideo}
-            width={500}
-            typa="mma/mp4"
-          ></video>
         </div>
       </div>
       <Footer />

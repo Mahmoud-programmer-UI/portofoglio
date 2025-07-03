@@ -4,6 +4,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Portofolio from "./portofolio-page";
+import EshopLite from "./e-shop-lite-page";
 import "./assets//stylesheets//header.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio-project" element={<Portofolio />} />
+          <Route path="/e-shop-project" element={<EshopLite />} />
         </Routes>
       </>
     </Router>
