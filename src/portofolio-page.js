@@ -1,9 +1,11 @@
 import Footer from "./footer";
+import portfoliovideo from './'
 import "./assets//stylesheets//portofolio.css";
-import loginportofolio from "./assets//images & videos//Screenshot 2025-07-01 003726.png";
-import section1Img from "./assets//images & videos//Screenshot 2025-07-01 004034.png";
-import section2Img from "./assets//images & videos//Screenshot 2025-07-01 004126.png";
-import lastestWorkImg from "./assets//images & videos//Screenshot 2025-07-01 004204.png";
+
+import loginportofolio from "./assets//images_Videos//Screenshot 2025-07-01 003726.png";
+import section1Img from "./assets//images_Videos//Screenshot 2025-07-01 004034.png";
+import section2Img from "./assets//images_Videos//Screenshot 2025-07-01 004126.png";
+import lastestWorkImg from "./assets//images_Videos//Screenshot 2025-07-01 004204.png";
 export default function Portofolio() {
   return (
     <>
@@ -43,6 +45,10 @@ export default function Portofolio() {
               <img src={lastestWorkImg} alt="not found"></img>
             </div>
           </div>
+        </div>
+        <div className="video-container"> 
+          <h1>Video Of Project</h1>
+          <video controls autoPlay src="portofolio video.mp4" typa="mma/mp4"></video>
         </div>
       </div>
       <Footer />
