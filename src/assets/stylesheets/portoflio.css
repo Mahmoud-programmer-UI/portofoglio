@@ -1,0 +1,44 @@
+.Portofolio-section {
+  margin: 0 28px;
+}
+
+.Portofolio-intro h2 {
+  padding: 0 20px;
+  margin: 8px 0 6px;
+}
+.Portofolio-intro p:nth-child(2) {
+  padding: 0 40px;
+}
+.Portofolio-intro p:nth-child(3) {
+  margin-top: 8px;
+  margin-bottom: 25px;
+  padding: 0 80px;
+}
+.language-used {
+  flex-direction: column;
+}
+.language-used h3 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+.language-used ul {
+  margin-bottom: 22px;
+}
+.language-used ul li {
+  list-style-position: inside;
+  text-align: center;
+}
+.portofolio-pictures-container {
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1100px;
+}
+.centralized-pictures {
+  margin: 0 35px;
+  width: 70%;
+}
+.centralized-pictures img {
+  width: 45%;
+}
