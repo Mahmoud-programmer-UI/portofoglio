@@ -1,7 +1,7 @@
 import "./assets//stylesheets//footer.css";
-import facebookLogo from "./assets//images_Videos//icons8-facebook.svg";
-import linkedinLogo from "./assets//images_Videos//icons8-linkedin.svg";
-import tiktokLogo from "./assets//images_Videos//icons8-tiktok-logo.svg";
+import facebookLogo from "./assets//images//icons8-facebook.svg";
+import linkedinLogo from "./assets//images//icons8-linkedin.svg";
+import tiktokLogo from "./assets//images//icons8-tiktok-logo.svg";
 function Footer() {
   return (
     <footer>
