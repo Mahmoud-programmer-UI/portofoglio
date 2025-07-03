@@ -1,7 +1,6 @@
 .e-shop-section {
   margin: 0 28px;
 }
-
 .e-shop-intro h2 {
   padding: 0 20px;
   margin: 8px 0 6px;
@@ -35,10 +34,11 @@
   text-align: center;
 }
 .e-shop-pictures-container {
-  border-radius: 100%;
-  min-height: 1100px;
+  min-height: fit-content;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px 0;
 }
-
 @media (max-width: 767px) {
   .e-shop-intro h2 {
     padding: 0 10px;
