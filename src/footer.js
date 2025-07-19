@@ -12,9 +12,9 @@ function Footer() {
       <div className="follow-container">
         <h1>Soon...</h1>
         <div className="socialmedia-icons">
-          <img src={facebookLogo}></img>
-          <img src={linkedinLogo}></img>
-          <img src={tiktokLogo}></img>
+          <img src={facebookLogo} alt="will not found"></img>
+          <img src={linkedinLogo} alt="will not found"></img>
+          <img src={tiktokLogo} alt="will not found"></img>
         </div>
       </div>
       <div className="copyright">
