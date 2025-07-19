@@ -4,7 +4,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import Portofolio from "./portofolio-page";
-import EshopLite from "./e-shop-lite-page";
+import EshopLite from "./e-shop-lite";
 import "./assets//stylesheets//header.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 function App() {
