@@ -36,7 +36,7 @@ function Home() {
             </p>
           </div>
         </div>
-        <Link className="btn" to="/projects">
+        <Link className="btn" to="/about">
           READ MORE
         </Link>
       </div>
