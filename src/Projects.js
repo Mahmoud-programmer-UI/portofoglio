@@ -14,7 +14,7 @@ function Projects() {
         </div>
         <div className="best-projects">
           <h1>
-            <i>Best Projects</i>
+            <i>illustration Projects</i>
           </h1>
           <div className="best-projects-container">
             <div className="portofoglio">
