@@ -23,7 +23,7 @@ function Contact(){
                 <div className='other-method flex2'>
                     <p>OR</p>
                     <p>Contact me via E-Mail</p>
-                    <h3>mahmoudmohamedwebdeveloper@gmail.com</h3>
+                    <h3>info@fakeportfolio.com</h3>
                 </div>
             </div>
         </div>
