@@ -68,7 +68,9 @@ function Home() {
               basic cart UI (without real checkout).
             </p>
             <div className="btn-container flex2">
-              <button className="btn2">VIEW</button>
+              <Link to="/e-shop-project" className="btn2">
+                VIEW
+              </Link>
             </div>
           </div>
         </div>
